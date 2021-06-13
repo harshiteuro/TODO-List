@@ -133,20 +133,39 @@ select{
     background: white;
     color: #ff6f47;
 }
+.icon{
+    padding-right: 10px;
+}
+.fa-bullhorn:before {
+    font-size: xxx-large;
+    color:darkred;
+}
 
 @media only screen and (max-width: 570px){
     form input, form button {
         font-size: 1rem;
     }
     .footer-part {
-        width: 400px;
         text-align: center;
-        padding-left: 70px;
+        width: 300px;
+        margin: auto;
+
+    }
+    .icon{
+        display: block;
+        margin:auto;
     }
     select {
         width: 7rem;
     }
     header {
-        font-size: 1.3rem;
+        font-size: 0.8rem;
+    }
+    header, form {
+        display: grid;
+    }
+    .fa-bullhorn:before {
+        font-size: xxx-large;
+        color: darkred;
     }
 }
