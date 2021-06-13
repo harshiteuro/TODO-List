@@ -137,7 +137,7 @@ select{
     padding-right: 10px;
 }
 .fa-bullhorn:before {
-    font-size: xxx-large;
+    font-size: -webkit-xxx-large;
     color:darkred;
 }
 
@@ -162,10 +162,13 @@ select{
         font-size: 0.8rem;
     }
     header, form {
-        display: inline-flex;
+        display: grid;
     }
     .fa-bullhorn:before {
-        font-size: xxx-large;
+        font-size: -webkit-xxx-large;
         color: darkred;
+    }
+    .select {
+        width: min-content;
     }
 }
