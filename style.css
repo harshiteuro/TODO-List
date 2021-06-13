@@ -162,7 +162,7 @@ select{
         font-size: 0.8rem;
     }
     header, form {
-        display: grid;
+        display: inline-flex;
     }
     .fa-bullhorn:before {
         font-size: xxx-large;
